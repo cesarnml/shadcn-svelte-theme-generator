@@ -8,6 +8,7 @@ module.exports = {
     sourceType: 'module',
     ecmaVersion: 2020,
     extraFileExtensions: ['.svelte'],
+    project: './tsconfig.json',
   },
   env: {
     browser: true,
@@ -23,4 +24,8 @@ module.exports = {
       },
     },
   ],
+  rules: {
+    'no-undef': 'off', // redundant with TypeScript
+    '@typescript-eslint/no-unused-vars': 'warn', // conflicts with shadcn-svelte
+  },
 }
