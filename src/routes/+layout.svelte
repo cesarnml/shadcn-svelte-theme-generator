@@ -2,8 +2,6 @@
   import '../app.css'
 </script>
 
-<main class="grid min-h-screen place-items-center">
+<main class="container grid min-h-screen">
   <slot />
 </main>
-
-<style></style>
