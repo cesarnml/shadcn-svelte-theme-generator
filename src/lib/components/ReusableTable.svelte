@@ -12,11 +12,11 @@
   import { readable } from 'svelte/store'
   import Actions from './data-table/data-table-actions.svelte'
   import DataTableCheckbox from './data-table/data-table-checkbox.svelte'
-  import * as Table from '$lib/components/ui/table/index.js'
-  import { Button } from '$lib/components/ui/button/index.js'
-  import * as DropdownMenu from '$lib/components/ui/dropdown-menu/index.js'
+  import * as Table from '$lib/components/ui/table/'
+  import { Button } from '$lib/components/ui/button/'
+  import * as DropdownMenu from '$lib/components/ui/dropdown-menu/'
   import { cn } from '$lib/utils.js'
-  import { Input } from '$lib/components/ui/input/index.js'
+  import { Input } from '$lib/components/ui/input/'
 
   type Payment = {
     id: string

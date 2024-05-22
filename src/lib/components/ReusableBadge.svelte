@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Badge } from '$lib/components/ui/badge/index.js'
+  import { Badge } from '$lib/components/ui/badge/'
 </script>
 
 <div class="grid h-fit grid-cols-2 gap-4">

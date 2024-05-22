@@ -2,7 +2,7 @@
   import FontBold from 'svelte-radix/FontBold.svelte'
   import FontItalic from 'svelte-radix/FontItalic.svelte'
   import Underline from 'svelte-radix/Underline.svelte'
-  import * as ToggleGroup from '$lib/components/ui/toggle-group/index.js'
+  import * as ToggleGroup from '$lib/components/ui/toggle-group/'
 </script>
 
 <ToggleGroup.Root type="multiple">

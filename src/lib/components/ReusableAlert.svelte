@@ -1,6 +1,6 @@
 <script lang="ts">
   import Rocket from 'svelte-radix/Rocket.svelte'
-  import * as Alert from '$lib/components/ui/alert/index.js'
+  import * as Alert from '$lib/components/ui/alert/'
 </script>
 
 <Alert.Root>

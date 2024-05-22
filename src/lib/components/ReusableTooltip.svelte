@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { Button } from '$lib/components/ui/button/index.js'
-  import * as Tooltip from '$lib/components/ui/tooltip/index.js'
+  import { Button } from '$lib/components/ui/button/'
+  import * as Tooltip from '$lib/components/ui/tooltip/'
 </script>
 
 <Tooltip.Root>
