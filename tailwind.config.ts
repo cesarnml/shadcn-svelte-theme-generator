@@ -57,6 +57,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: [...fontFamily.sans],
+        mono: ['FiraCode Regular', ...fontFamily.mono],
       },
     },
   },
