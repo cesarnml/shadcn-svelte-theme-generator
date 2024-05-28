@@ -22,12 +22,12 @@
   import ReusableTooltip from '$lib/components/ReusableTooltip.svelte'
 </script>
 
-<div class="container">
+<div>
   <header class="mb-6 flex items-center justify-between">
     <h1 class="text-xl font-bold uppercase">shadcn-svelte theme generator</h1>
     <DarkModeSwitch />
   </header>
-  <div class="grid grid-cols-10 gap-8">
+  <div class="grid grid-cols-10 gap-6">
     <div class="col-span-2">
       <div class="flex flex-col gap-8">
         <BackgroundForegroundExample />

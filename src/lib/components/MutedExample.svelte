@@ -24,7 +24,7 @@
     <div class="flex flex-col gap-4">
       <ReusableTabs />
     </div>
-    <div class="flex justify-between gap-4">
+    <!-- <div class="flex justify-between gap-4">
       <div class="flex-grow">
         <Label>Muted</Label>
         <Input type="color" bind:value={muted} on:input={updateMutedColor} />
@@ -33,6 +33,6 @@
         <Label>Muted Foreground</Label>
         <Input type="color" bind:value={mutedForeground} on:input={updateMutedForegroundColor} />
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
