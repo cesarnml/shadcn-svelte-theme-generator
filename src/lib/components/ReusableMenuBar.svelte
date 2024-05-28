@@ -7,7 +7,7 @@
   const profileRadioValue = 'benoit'
 </script>
 
-<Menubar.Root>
+<Menubar.Root class="w-fit">
   <Menubar.Menu>
     <Menubar.Trigger>File</Menubar.Trigger>
     <Menubar.Content>

@@ -22,8 +22,6 @@
   <h2 class="mb-2 font-mono text-lg font-semibold">Muted</h2>
   <div class="flex flex-col gap-4">
     <div class="flex flex-col gap-4">
-      <ReusableSkeleton />
-      <ReusableSwitch />
       <ReusableTabs />
     </div>
     <div class="flex justify-between gap-4">
