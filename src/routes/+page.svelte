@@ -23,8 +23,8 @@
 </script>
 
 <div class="container">
-  <header class="flex items-center justify-between">
-    <h1 class="mb-6 text-xl font-bold uppercase">shadcn-svelte theme generator</h1>
+  <header class="mb-6 flex items-center justify-between">
+    <h1 class="text-xl font-bold uppercase">shadcn-svelte theme generator</h1>
     <DarkModeSwitch />
   </header>
   <div class="grid grid-cols-10 gap-8">
